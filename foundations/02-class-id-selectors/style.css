@@ -1,0 +1,20 @@
+#first-div {
+    font-size: 36px;
+    color: blue;
+
+}
+
+#second-div {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #80FF80;
+}
+
+.parag {
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+    background-color: #FFA7A7;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
