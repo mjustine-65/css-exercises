@@ -27,3 +27,63 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Solution */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header and Footer Styling */
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.content-wrap {
+  display: flex;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  padding: 16px;
+  flex: 1 0 300px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Main and Card Styling */
+.main {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  padding: 32px;
+  flex: 0 1 300px;
+}
